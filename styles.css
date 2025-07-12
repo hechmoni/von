@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9ff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #5a189a;
+  color: white;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(to bottom right, #9d4edd, #5a189a);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+.crypto-logos img {
+  width: 60px;
+  height: auto;
+  margin: 0 1rem;
+}
+
+.map-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.phone {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #5a189a;
+}
+
+footer {
+  background-color: #5a189a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
